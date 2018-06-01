@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/lvborui5/"/>
-  <updated>2018-06-01T10:36:34.893Z</updated>
+  <updated>2018-06-01T11:42:36.113Z</updated>
   <id>https://github.com/lvborui5/</id>
   
   <author>
@@ -17,19 +17,79 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>mysql远程连接配置</title>
+    <link href="https://github.com/lvborui5/2018/06/01/mysql%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5%E9%85%8D%E7%BD%AE/"/>
+    <id>https://github.com/lvborui5/2018/06/01/mysql远程连接配置/</id>
+    <published>2018-06-01T11:41:46.000Z</published>
+    <updated>2018-06-01T11:42:36.113Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Fri Jun 01 2018 19:47:08 GMT+0800 (中国标准时间) --><p>默认情况下，mysql只允许本地登录，如果要开启远程连接，则需要修改/etc/mysql/my.conf文件。</p><p><strong>一、修改/etc/mysql/my.conf</strong><br>找到bind-address = 127.0.0.1这一行<br>改为bind-address = 0.0.0.0即可</p><p><strong>二、为需要远程登录的用户赋予权限</strong><br>1、新建用户远程连接mysql数据库<br>grant all on <em>.</em> to admin@’%’ identified by ‘123456’ with grant option;<br>flush privileges;<br>允许任何ip地址(%表示允许任何ip地址)的电脑用admin帐户和密码(123456)来访问这个mysql server。<br>注意admin账户不一定要存在。</p><p>2、支持root用户允许远程连接mysql数据库<br>grant all privileges on <em>.</em> to ‘root’@’%’ identified by ‘123456’ with grant option;<br>flush privileges;</p><p>三、查看系统用户<br><img src="//p57i1ef2o.bkt.clouddn.com//file/2018/3/84b4deeb754e4d6cac6de88c7b7c7927-270324201603122333564911800728976.png" alt="84b4deeb754e4d6cac6de88c7b7c7927-270324201603122333564911800728976.png"></p><p>PS：该文章转载自：<a href="https://www.cnblogs.com/linjiqin/p/5270938.html" target="_blank" rel="noopener">https://www.cnblogs.com/linjiqin/p/5270938.html</a></p><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Fri Jun 01 2018 19:47:08 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;默认情况下，mysql只允许本地登录，如果要开启远程连接，则需要修改/etc/mysql/my.conf文件。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;一、修改/
+      
+    
+    </summary>
+    
+      <category term="数据库" scheme="https://github.com/lvborui5/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    
+      <category term="mysql" scheme="https://github.com/lvborui5/tags/mysql/"/>
+    
+      <category term="数据库" scheme="https://github.com/lvborui5/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>td内容不换行超出内容隐藏及固定td最小高度</title>
+    <link href="https://github.com/lvborui5/2018/06/01/td%E5%86%85%E5%AE%B9%E4%B8%8D%E6%8D%A2%E8%A1%8C%E8%B6%85%E5%87%BA%E5%86%85%E5%AE%B9%E9%9A%90%E8%97%8F%E5%8F%8A%E5%9B%BA%E5%AE%9Atd%E6%9C%80%E5%B0%8F%E9%AB%98%E5%BA%A6/"/>
+    <id>https://github.com/lvborui5/2018/06/01/td内容不换行超出内容隐藏及固定td最小高度/</id>
+    <published>2018-06-01T11:39:32.000Z</published>
+    <updated>2018-06-01T11:40:26.335Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Fri Jun 01 2018 19:47:08 GMT+0800 (中国标准时间) --><pre>table{    table-layout:fixed;/* 只有定义了表格的布局算法为fixed，下面td的定义才能起作用。 */}td{    width:100%;    word-break:keep-all;/* 不换行 */    white-space:nowrap;/* 不换行 */    overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */    text-overflow:ellipsis;/* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/}td:after {  content: "";  display: inline-block;  vertical-align: middle;  min-height: 29px;}</pre><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Fri Jun 01 2018 19:47:08 GMT+0800 (中国标准时间) --&gt;&lt;pre&gt;
+table{
+    table-layout:fixed;/* 只有定义了表格的布局算法为fixed，下面td的定义才能起作用。 */
+}
+t
+      
+    
+    </summary>
+    
+      <category term="前端开发" scheme="https://github.com/lvborui5/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+    
+      <category term="html" scheme="https://github.com/lvborui5/tags/html/"/>
+    
+      <category term="css" scheme="https://github.com/lvborui5/tags/css/"/>
+    
+      <category term="前端" scheme="https://github.com/lvborui5/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
     <title>chrome调试手机页面</title>
     <link href="https://github.com/lvborui5/2018/06/01/chrome%E8%B0%83%E8%AF%95%E6%89%8B%E6%9C%BA%E9%A1%B5%E9%9D%A2/"/>
     <id>https://github.com/lvborui5/2018/06/01/chrome调试手机页面/</id>
     <published>2018-06-01T10:35:22.000Z</published>
     <updated>2018-06-01T10:36:34.893Z</updated>
     
-    <content type="html"><![CDATA[<!-- build time:Fri Jun 01 2018 18:36:42 GMT+0800 (中国标准时间) --><p>适用于Hbuilder真机运行时调试页面(调出控制台),操作方法是在chrome中访问连接<a href="chrome://inspect/#devices" target="_blank" rel="noopener">chrome://inspect/#devices</a></p><!-- rebuild by neat -->]]></content>
+    <content type="html"><![CDATA[<!-- build time:Fri Jun 01 2018 19:47:08 GMT+0800 (中国标准时间) --><p>适用于Hbuilder真机运行时调试页面(调出控制台),操作方法是在chrome中访问连接<a href="chrome://inspect/#devices" target="_blank" rel="noopener">chrome://inspect/#devices</a></p><!-- rebuild by neat -->]]></content>
     
     <summary type="html">
     
       
       
-        &lt;!-- build time:Fri Jun 01 2018 18:36:42 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;适用于Hbuilder真机运行时调试页面(调出控制台),操作方法是在chrome中访问连接&lt;a href=&quot;chrome://inspect/#dev
+        &lt;!-- build time:Fri Jun 01 2018 19:47:08 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;适用于Hbuilder真机运行时调试页面(调出控制台),操作方法是在chrome中访问连接&lt;a href=&quot;chrome://inspect/#dev
       
     
     </summary>
@@ -50,13 +110,13 @@
     <published>2018-06-01T05:17:13.000Z</published>
     <updated>2018-06-01T05:20:02.379Z</updated>
     
-    <content type="html"><![CDATA[<!-- build time:Fri Jun 01 2018 18:36:42 GMT+0800 (中国标准时间) --><h1 id="一号标题"><a class="markdownIt-Anchor" href="#一号标题"></a> 一号标题</h1><h2 id="二号标题"><a class="markdownIt-Anchor" href="#二号标题"></a> 二号标题</h2><h3 id="三号标题"><a class="markdownIt-Anchor" href="#三号标题"></a> 三号标题</h3><h4 id="四号标题"><a class="markdownIt-Anchor" href="#四号标题"></a> 四号标题</h4><h5 id="五号标题"><a class="markdownIt-Anchor" href="#五号标题"></a> 五号标题</h5><!-- rebuild by neat -->]]></content>
+    <content type="html"><![CDATA[<!-- build time:Fri Jun 01 2018 19:47:08 GMT+0800 (中国标准时间) --><h1 id="一号标题"><a class="markdownIt-Anchor" href="#一号标题"></a> 一号标题</h1><h2 id="二号标题"><a class="markdownIt-Anchor" href="#二号标题"></a> 二号标题</h2><h3 id="三号标题"><a class="markdownIt-Anchor" href="#三号标题"></a> 三号标题</h3><h4 id="四号标题"><a class="markdownIt-Anchor" href="#四号标题"></a> 四号标题</h4><h5 id="五号标题"><a class="markdownIt-Anchor" href="#五号标题"></a> 五号标题</h5><!-- rebuild by neat -->]]></content>
     
     <summary type="html">
     
       
       
-        &lt;!-- build time:Fri Jun 01 2018 18:36:42 GMT+0800 (中国标准时间) --&gt;&lt;h1 id=&quot;一号标题&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#一号标题&quot;&gt;&lt;/a&gt; 一号标题&lt;/h1&gt;&lt;h2 id=&quot;
+        &lt;!-- build time:Fri Jun 01 2018 19:47:08 GMT+0800 (中国标准时间) --&gt;&lt;h1 id=&quot;一号标题&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#一号标题&quot;&gt;&lt;/a&gt; 一号标题&lt;/h1&gt;&lt;h2 id=&quot;
       
     
     </summary>
@@ -73,13 +133,13 @@
     <published>2018-06-01T03:26:33.793Z</published>
     <updated>2018-06-01T03:51:20.209Z</updated>
     
-    <content type="html"><![CDATA[<!-- build time:Fri Jun 01 2018 18:36:42 GMT+0800 (中国标准时间) --><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="quick-start"><a class="markdownIt-Anchor" href="#quick-start"></a> Quick Start</h2><h3 id="create-a-new-post"><a class="markdownIt-Anchor" href="#create-a-new-post"></a> Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="run-server"><a class="markdownIt-Anchor" href="#run-server"></a> Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="generate-static-files"><a class="markdownIt-Anchor" href="#generate-static-files"></a> Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="deploy-to-remote-sites"><a class="markdownIt-Anchor" href="#deploy-to-remote-sites"></a> Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p><!-- rebuild by neat -->]]></content>
+    <content type="html"><![CDATA[<!-- build time:Fri Jun 01 2018 19:47:08 GMT+0800 (中国标准时间) --><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="quick-start"><a class="markdownIt-Anchor" href="#quick-start"></a> Quick Start</h2><h3 id="create-a-new-post"><a class="markdownIt-Anchor" href="#create-a-new-post"></a> Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="run-server"><a class="markdownIt-Anchor" href="#run-server"></a> Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="generate-static-files"><a class="markdownIt-Anchor" href="#generate-static-files"></a> Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="deploy-to-remote-sites"><a class="markdownIt-Anchor" href="#deploy-to-remote-sites"></a> Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p><!-- rebuild by neat -->]]></content>
     
     <summary type="html">
     
       
       
-        &lt;!-- build time:Fri Jun 01 2018 18:36:42 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/
+        &lt;!-- build time:Fri Jun 01 2018 19:47:08 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/
       
     
     </summary>
