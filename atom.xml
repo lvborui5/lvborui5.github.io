@@ -5,9 +5,9 @@
   <subtitle>blog</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://kepp.com.cn/"/>
+  <link href="https://github.com/lvborui5/"/>
   <updated>2018-06-01T05:20:02.379Z</updated>
-  <id>http://kepp.com.cn/</id>
+  <id>https://github.com/lvborui5/</id>
   
   <author>
     <name>lv borui</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>你好，Hexo</title>
-    <link href="http://kepp.com.cn/2018/06/01/%E4%BD%A0%E5%A5%BD%EF%BC%8CHexo/"/>
-    <id>http://kepp.com.cn/2018/06/01/你好，Hexo/</id>
+    <link href="https://github.com/lvborui5/2018/06/01/%E4%BD%A0%E5%A5%BD%EF%BC%8CHexo/"/>
+    <id>https://github.com/lvborui5/2018/06/01/你好，Hexo/</id>
     <published>2018-06-01T05:17:13.000Z</published>
     <updated>2018-06-01T05:20:02.379Z</updated>
     
@@ -36,14 +36,14 @@
     </summary>
     
     
-      <category term="test" scheme="http://kepp.com.cn/tags/test/"/>
+      <category term="test" scheme="https://github.com/lvborui5/tags/test/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://kepp.com.cn/2018/06/01/hello-world/"/>
-    <id>http://kepp.com.cn/2018/06/01/hello-world/</id>
+    <link href="https://github.com/lvborui5/2018/06/01/hello-world/"/>
+    <id>https://github.com/lvborui5/2018/06/01/hello-world/</id>
     <published>2018-06-01T03:26:33.793Z</published>
     <updated>2018-06-01T03:51:20.209Z</updated>
     
