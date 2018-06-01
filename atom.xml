@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/lvborui5/"/>
-  <updated>2018-06-01T05:20:02.379Z</updated>
+  <updated>2018-06-01T05:55:33.218Z</updated>
   <id>https://github.com/lvborui5/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>xmind 8 pro破解</title>
+    <link href="https://github.com/lvborui5/2018/06/01/xmind-8-pro%E7%A0%B4%E8%A7%A3/"/>
+    <id>https://github.com/lvborui5/2018/06/01/xmind-8-pro破解/</id>
+    <published>2018-06-01T05:52:30.000Z</published>
+    <updated>2018-06-01T05:55:33.218Z</updated>
+    
+    <content type="html"><![CDATA[<p>在<a href="http://www.xmindchina.net" target="_blank" rel="noopener">xmind官网</a>下载最新版本的Xmind安装程序，安装成功后不要打开软件，直接进行破解。</p><p>修改&quot;XMind.ini&quot;文件，在最后一行添加</p><blockquote><p>-javaagent:F:/devlope/XMind/XMindCrack.jar</p></blockquote><p><img src="https://img-blog.csdn.net/20180524153748795?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3l5c2JzMTg=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p><p>文件下载地址：<br><a href="http://ovi21ecv3.bkt.clouddn.com/files/crack/XMindCrack.jar" target="_blank" rel="noopener">http://ovi21ecv3.bkt.clouddn.com/files/crack/XMindCrack.jar</a></p><p>同时修改 C:\Windows\System32\drivers\etc\hosts 文件<br>添加一行记录</p><blockquote><p>0.0.0.0 <a href="http://www.xmind.net" target="_blank" rel="noopener">www.xmind.net</a></p></blockquote><p><img src="https://img-blog.csdn.net/20180524153800614?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3l5c2JzMTg=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p><p>启动xmind后选择&quot;帮助&gt;序列号&gt;输入序列号&quot;，内容如下：<br><strong>邮箱</strong>：随便的邮箱都行<br><strong>序列号</strong>：</p><blockquote><p>XAka34A2rVRYJ4XBIU35UZMUEEF64CMMIYZCK2FZZUQNODEKUHGJLFMSLIQMQUCUBXRENLK6NZL37JXP4PZXQFILMQ2RG5R7G4QNDO3PSOEUBOCDRYSSXZGRARV6MGA33TN2AMUBHEL4FXMWYTTJDEINJXUAV4BAYKBDCZQWVF3LWYXSDCXY546U3NBGOI3ZPAP2SO3CSQFNB7VVIY123456789012345</p></blockquote><p><img src="https://img-blog.csdn.net/20180524153814419?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3l5c2JzMTg=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p><p>验证成功，至此xmind破解成功<br><img src="https://img-blog.csdn.net/20180524153821104?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3l5c2JzMTg=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;在&lt;a href=&quot;http://www.xmindchina.net&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;xmind官网&lt;/a&gt;下载最新版本的Xmind安装程序，安装成功后不要打开软件，直接进行破解。&lt;/p&gt;
+&lt;p&gt;修改&amp;quot;XMind.
+      
+    
+    </summary>
+    
+      <category term="破解" scheme="https://github.com/lvborui5/categories/%E7%A0%B4%E8%A7%A3/"/>
+    
+    
+      <category term="crack" scheme="https://github.com/lvborui5/tags/crack/"/>
+    
+      <category term="xmind" scheme="https://github.com/lvborui5/tags/xmind/"/>
+    
+  </entry>
   
   <entry>
     <title>你好，Hexo</title>
@@ -47,7 +75,7 @@
     <published>2018-06-01T03:26:33.793Z</published>
     <updated>2018-06-01T03:51:20.209Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="quick-start"><a class="markdownIt-Anchor" href="#quick-start"></a> Quick Start</h2><h3 id="create-a-new-post"><a class="markdownIt-Anchor" href="#create-a-new-post"></a> Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="run-server"><a class="markdownIt-Anchor" href="#run-server"></a> Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="generate-static-files"><a class="markdownIt-Anchor" href="#generate-static-files"></a> Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="deploy-to-remote-sites"><a class="markdownIt-Anchor" href="#deploy-to-remote-sites"></a> Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="quick-start"><a class="markdownIt-Anchor" href="#quick-start"></a> Quick Start</h2><h3 id="create-a-new-post"><a class="markdownIt-Anchor" href="#create-a-new-post"></a> Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="run-server"><a class="markdownIt-Anchor" href="#run-server"></a> Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="generate-static-files"><a class="markdownIt-Anchor" href="#generate-static-files"></a> Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="deploy-to-remote-sites"><a class="markdownIt-Anchor" href="#deploy-to-remote-sites"></a> Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
     
     <summary type="html">
     
